@@ -1,3 +1,14 @@
+.heading{
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-shadow:  2px 4px 3px #FF0000, 2px 4px 5px blue;
+    transition: 10s;
+}
+.heading:hover{
+    cursor: pointer;
+}
+
 .collection{
     display: flex;
     flex-wrap:wrap;
@@ -11,9 +22,16 @@
   height: 300px;
   padding: 30px;
   margin: 20px;
-  box-shadow: 5px 6px 10px rgb(200, 198, 198);
+  box-shadow: 5px 6px 10px rgb(157, 146, 146);
   border-radius: 20px;
   cursor: pointer;
+  transition: 20s; 
+}
+
+.container img:hover{
+    background: rgb(22, 40, 142);
+    transform: rotate(20deg);
+    
 }
 h1, h5{
     text-align: center;
@@ -23,15 +41,35 @@ h1, h5{
 h5{
     color: rgb(175, 173, 171);
 }
-/* .container:hover{
-   background: blueviolet;
-} */
+/* .container{
+    background: transparent;
+    top: 0;
+    left: 0;
+    /* transition: 30s; */
+   
 
-.container{
-  
-    transition: 0.5s;
+
+
+.btn {
+    text-align: center;
+   
 }
+.btn a button{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    background: linear-gradient( #280359, #ae0cae 80%);
+    border: rebeccapurple;
+    box-shadow:3px 4px 5px rgb(108, 105, 105) ;
+    cursor: pointer;
+   
+    
+}
+.btn a button:hover{
+    background: linear-gradient(#178f23, #1e9fb5 80%);
+    color: black;
+    
 
-.container:hover{
-    background: rgb(130, 79, 157);
 }
